@@ -1,0 +1,8 @@
+{
+  "generator-sitecore": {
+    "unicorn": false,
+    "solutionName": "Sample",
+    "projectUrl": "",
+    "sitecoreVersion": "8.2.161221"
+  }
+}

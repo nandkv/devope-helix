@@ -1,0 +1,49 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{fa8e6db9-8462-4eb3-950f-d48652059d9b}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+		nuget.config = nuget.config
+		publishsettings.targets = publishsettings.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{b696b64f-7440-410c-82e3-8c9a17b928b7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{2f8c25f8-5dca-4400-9496-cbf8082ffefe}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{87cee04a-c096-4447-a8c7-c195625eda02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Website", "src\Project\Sample\code\Sample.Website.csproj", "{d2ed3a0a-0284-4f6c-b783-2b6db8adc08d}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{07381f85-831b-4015-8344-345af7b3a0b9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{d2ed3a0a-0284-4f6c-b783-2b6db8adc08d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d2ed3a0a-0284-4f6c-b783-2b6db8adc08d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d2ed3a0a-0284-4f6c-b783-2b6db8adc08d}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{d2ed3a0a-0284-4f6c-b783-2b6db8adc08d}.Debug|x64.Build.0 = Debug|Any CPU
+		{d2ed3a0a-0284-4f6c-b783-2b6db8adc08d}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{d2ed3a0a-0284-4f6c-b783-2b6db8adc08d}.Release|Any CPU.Build.0 = Release|Any CPU
+		{d2ed3a0a-0284-4f6c-b783-2b6db8adc08d}.Release|x64.ActiveCfg = Release|Any CPU
+		{d2ed3a0a-0284-4f6c-b783-2b6db8adc08d}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{d2ed3a0a-0284-4f6c-b783-2b6db8adc08d} = {07381f85-831b-4015-8344-345af7b3a0b9}
+		{07381f85-831b-4015-8344-345af7b3a0b9} = {87cee04a-c096-4447-a8c7-c195625eda02}
+	EndGlobalSection
+EndGlobal
